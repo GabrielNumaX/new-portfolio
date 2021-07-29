@@ -44,13 +44,19 @@
 
     .socialList {
         display: flex;
+        // background: crimson;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        // justify-content: space-between;
         .socialCard {
             display: flex;
             align-items: center;
             background: $dark01a;
             border-radius: 20px;
-            width: 340px;
-            height: 160px;
+            width: 300px;
+            height: 140px;
+            margin-bottom: 30px;
+            margin-right: 10px;
 
             .socialText {
                 flex: 7;
@@ -69,7 +75,7 @@
 
                 p {
                     font-weight: $light;
-                    font-size: 1.6rem;
+                    font-size: 1.4rem;
                     letter-spacing: 1px;
                 }
             }
@@ -93,7 +99,7 @@
 
                     .icon {
                         color: $green;
-                        font-size: 2.6rem;
+                        font-size: 2.8rem;
                         filter: drop-shadow(0px 0px 22px $green);
                     }
                 }
