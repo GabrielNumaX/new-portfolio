@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub, faFacebookF, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedinIn, faGithub, faFacebookF, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 
 const SocialMedia = () => {
@@ -36,7 +36,9 @@ const SocialMedia = () => {
 
                     <div className="socialIcon">
 
-                        <a>
+                        <a href="https://www.linkedin.com/in/numax" target="_blank" rel="noopener noreferrer">
+
+                            <FontAwesomeIcon icon={faLinkedinIn} className="icon" />
 
                         </a>
 
