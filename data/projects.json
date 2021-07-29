@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "isReverse": false,
+            "type": "MERN Stack",
+            "title": "Ephemeral Chat",
+            "description": "Real-Time chat app with Socket.io library.",
+            "image": "/projects/ephemeral.png",
+            "link": "https://ephemeral-chat.herokuapp.com/"
+        },
+        {
+            "id": 2,
+            "isReverse": true,
+            "type": "MERN Stack",
+            "title": "Calendarium",
+            "description": "Todo App with \"Forgot Password\" feature",
+            "image": "/projects/calendarium.png",
+            "link": "https://calendarium-app.herokuapp.com/"
+        },
+        {
+            "id": 3,
+            "isReverse": false,
+            "type": "MERN Stack",
+            "title": "MathTrix",
+            "description": "Interactive Math Game for Children",
+            "image": "/projects/mathtrix.png",
+            "link": "https://mathtrix.herokuapp.com/"
+        },
+        {
+            "id": 4,
+            "isReverse": true,
+            "type": "MERN Stack",
+            "title": "Notex",
+            "description": "App to post private notes",
+            "image": "/projects/notex.png",
+            "link": "https://notex-2020.herokuapp.com/"
+        },
+        {
+            "id": 5,
+            "isReverse": false,
+            "type": "React JS",
+            "title": "Dice Game",
+            "description": "Dice Game to practice React lifecycles. Whoever scores 60 points first wins.",
+            "image": "/projects/dice.png",
+            "link": "https://gabrielnumax.github.io/dice-game/"
+        }
+    ]
+}

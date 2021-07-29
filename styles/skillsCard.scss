@@ -1,0 +1,13 @@
+.skillsCard {
+    display: flex;
+    color: $white;
+    width: 200px;
+    min-height: 200px;
+    background: $dark01a;
+
+    .skillsCardImageContainer {
+        width: 50px;
+        height: 50px;
+        background: grey;
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "skills": [
+        {
+            "id": 1,
+            "skill": "MongoDB",
+            "description": "The NoSQL database by excellence.",
+            "image": "/skills/mongo.png"
+        },
+        {
+            "id": 2,
+            "skill": "Express",
+            "description": "Popular Backend Framework for NodeJS.",
+            "image": "/skills/express.jpg"
+        },
+        {
+            "id": 3,
+            "skill": "ReactJS",
+            "description": "Javascript Library for building User Interfaces.",
+            "image": "/skills/react.png"
+        },
+        {
+            "id": 4,
+            "skill": "NodeJS",
+            "description": "As an asynchronous event-driven JavaScript runtime.",
+            "image": "/skills/node.png"
+        },
+        {
+            "id": 41,
+            "skill": "Redux",
+            "description": "A Predictable State Container for JS Apps.",
+            "image": "/skills/redux.png"
+        },
+        {
+            "id": 5,
+            "skill": "Javascript",
+            "description": "JavaScript it is most well-known as the scripting language for Web pages.",
+            "image": "/skills/js.png"
+        },
+        {
+            "id": 6,
+            "skill": "ES6",
+            "description": "ECMAScript 2015 or ES6 was the second major revision to JavaScript  done by Ecma International.",
+            "image": "/skills/es6.jpeg"
+        },
+        {
+            "id": 7,
+            "skill": "Sass",
+            "description": "CSS with superpowers.",
+            "image": "/skills/sass.png"
+        },
+        {
+            "id": 8,
+            "skill": "Material UI",
+            "description": "React components for faster and easier web development.",
+            "image": "/skills/material.jpg"
+        }
+    ]
+}

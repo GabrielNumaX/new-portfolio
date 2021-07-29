@@ -1,0 +1,115 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    padding: 80px $paddingLRContainer 0;
+    background: $dark02;
+
+    .whyMe {
+        display: flex;
+        flex-direction: column;
+        // flex: 2.5;
+        // background: green;
+        // align-items: center;
+        justify-content: center;
+        color: $white;
+        padding: 0 30px 50px 20px;
+
+        .titleContainer {
+            display: flex;
+            align-items: center;
+
+            .line {
+                height: 1px;
+                width: 16px;
+                background: $green;
+            }
+
+            p {
+                color: $green;
+                font-size: 1.8rem;
+                // font-weight: $medium;
+                font-weight: $light;
+                margin-left: 5px;
+            }
+        }
+
+        .whyHire {
+            background: crimson;
+            padding-left: 120px;
+            h3 {
+                font-size: 2.8rem;
+                margin: 18px 0 8px;
+            }
+
+            p {
+                font-size: 1.4rem;
+                font-weight: $light;
+            }
+        }
+    }
+
+    .skillsList {
+        display: flex;
+        // flex-direction: column;
+        // flex: 3.5;
+        // background: blue;
+        padding: 10px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        .skillsCard {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: $white;
+            min-width: 220px;
+            width: 220px;
+            min-height: 220px;
+            max-height: 220px;
+            background: $dark01a;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            margin-right: 20px;
+            padding: 0 30px;
+
+            &:nth-child(odd) {
+                margin-top: 20px;
+            }
+
+            .skillsCardImageContainer {
+                width: 60px;
+                height: 60px;
+                background: $dark02;
+
+                border-radius: 50px;
+                border: 1px solid $green;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 10px;
+
+                .skillItem {
+                    // this is to handle Next Js Image component
+                    position: relative;
+                    width: 30px;
+                    height: 30px;
+
+                    .image {
+                        border-radius: 4px;
+                    }
+                }
+            }
+
+            h3 {
+                font-size: 1.6rem;
+                font-weight: $semiBold;
+                margin-bottom: 5px;
+            }
+
+            p {
+                text-align: center;
+            }
+        }
+    }
+}
