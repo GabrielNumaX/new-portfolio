@@ -9,6 +9,8 @@ $dark03a: #3f4045;
 $adrk03b: #3f3f3f;
 
 $white: #fdfdfd;
+
+$whiteFade: rgba(253, 253, 253, 0.8);
 $green: #61eba7;
 // $green: #00dbdb;
 
@@ -29,3 +31,23 @@ $medium: 500;
 $semiBold: 600;
 
 $paddingLRContainer: 65px;
+
+// @mixin placeholder-style($color) {
+//     &::-webkit-input-placeholder {
+//         /* WebKit browsers */
+//         color: $color;
+//         // or {@content} -> can add styles
+//     }
+//     &:-moz-placeholder {
+//         /* Mozilla Firefox 4 to 18 */
+//         color: $color;
+//     }
+//     &::-moz-placeholder {
+//         /* Mozilla Firefox 19+ */
+//         color: $color;
+//     }
+//     &:-ms-input-placeholder {
+//         /* Internet Explorer 10+ */
+//         color: $color;
+//     }
+// }

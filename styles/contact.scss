@@ -1,0 +1,111 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    padding: 80px $paddingLRContainer;
+    // background: $dark01a;
+    background: $dark02;
+
+    .whyMe {
+        display: flex;
+        flex-direction: column;
+        // flex: 2.5;
+        // background: green;
+        // align-items: center;
+        justify-content: center;
+        color: $white;
+        padding: 0 30px 50px 20px;
+
+        .titleContainer {
+            display: flex;
+            align-items: center;
+
+            .line {
+                height: 1px;
+                width: 16px;
+                background: $green;
+            }
+
+            p {
+                color: $green;
+                font-size: 1.8rem;
+                // font-weight: $medium;
+                font-weight: $light;
+                margin-left: 5px;
+            }
+        }
+
+        .whyHire {
+            padding-left: 120px;
+            h3 {
+                font-size: 2.8rem;
+                margin: 18px 0 8px;
+            }
+        }
+    }
+
+    .formContainer {
+        display: flex;
+        justify-content: center;
+        // background: $dark02;
+        background: $dark01a;
+        border-radius: 10px;
+        padding: 60px 40px;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            // min-height: 440px;
+            // background: coral;
+            // justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+            .formDiv {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 40px;
+
+                label {
+                    // color: $white;
+                    color: $whiteFade;
+                    // color: $yellow;
+                    font-size: 1.4rem;
+                    font-weight: $light;
+                    margin-bottom: 2px;
+                }
+
+                input[type="text"],
+                input[type="email"],
+                textarea {
+                    outline: none;
+                    border: 1px solid $whiteFade;
+                    // border: 1px solid $yellow;
+                    background: $dark02;
+                    padding: 8px;
+                    color: $whiteFade;
+                    font-weight: $light;
+                }
+
+                textarea {
+                    resize: none;
+                    height: 180px;
+                }
+            }
+
+            input[type="submit"] {
+                margin-top: 20px;
+                min-width: 100px;
+                color: $dark01a;
+                background: $yellow;
+                border: none;
+                border-radius: 4px;
+                padding: 10px 12px;
+                font-weight: $light;
+                font-size: 1.6rem;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

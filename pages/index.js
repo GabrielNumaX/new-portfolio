@@ -3,6 +3,7 @@ import Landing from "../components/Landing";
 import Skills from "../components/Skills";
 import Proyects from "../components/Proyects";
 import SocialMedia from "../components/SocialMedia";
+import ContactMe from "../components/ContactMe";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Skills />
       <Proyects />
       <SocialMedia />
+      <ContactMe />
     </>
   )
 }
