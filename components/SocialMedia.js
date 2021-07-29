@@ -34,6 +34,8 @@ const SocialMedia = () => {
 
                 <div className="socialCard">
 
+                    <div className="corner"></div>
+
                     <div className="socialText">
 
                         <h3>Linkedin</h3>
@@ -53,6 +55,8 @@ const SocialMedia = () => {
                 </div>
 
                 <div className="socialCard">
+
+                    <div className="corner"></div>
 
                     <div className="socialText">
 
@@ -74,6 +78,8 @@ const SocialMedia = () => {
 
                 <div className="socialCard">
 
+                    <div className="corner"></div>
+
                     <div className="socialText">
 
                         <h3>Facebook</h3>
@@ -94,6 +100,8 @@ const SocialMedia = () => {
 
                 <div className="socialCard">
 
+                    <div className="corner"></div>
+
                     <div className="socialText">
 
                         <h3>Instagram</h3>
@@ -112,6 +120,8 @@ const SocialMedia = () => {
                 </div>
 
                 <div className="socialCard">
+
+                    <div className="corner"></div>
 
                     <div className="socialText">
 

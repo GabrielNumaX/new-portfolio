@@ -57,6 +57,26 @@
             height: 140px;
             margin-bottom: 30px;
             margin-right: 10px;
+            overflow: hidden;
+            position: relative;
+
+            &:nth-child(even) > .corner {
+                top: 105px;
+                // background: linear-gradient(225deg, black 10%, white 100%);
+                background: linear-gradient(225deg, $greenGradient02 10%, $green 100%);
+            }
+
+            .corner {
+                background: linear-gradient(315deg, $greenGradient02 20%, $green 100%);
+                // background: linear-gradient(315deg, black 10%, white 100%);
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                position: absolute;
+                top: -25px;
+                // right: -15px;
+                left: -20px;
+            }
 
             .socialText {
                 flex: 7;
