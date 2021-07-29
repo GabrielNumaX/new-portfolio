@@ -1,7 +1,7 @@
 .contact {
     display: flex;
     flex-direction: column;
-    padding: 80px $paddingLRContainer;
+    padding: 80px $paddingLRContainer 160px;
     // background: $dark01a;
     background: $dark02;
 
@@ -63,6 +63,9 @@
                 display: flex;
                 flex-direction: column;
                 margin-bottom: 40px;
+                // flex: 1;
+                // background: chocolate;
+                width: 100%;
 
                 label {
                     // color: $white;

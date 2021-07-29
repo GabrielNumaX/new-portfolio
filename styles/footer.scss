@@ -1,0 +1,43 @@
+footer {
+    background: $dark01a;
+    height: 100px;
+    display: flex;
+
+    .footerText {
+        flex: 7;
+        display: flex;
+        align-items: center;
+        // background: chocolate;
+        justify-content: center;
+
+        p {
+            font-size: 1.8rem;
+            color: $white;
+            font-weight: $light;
+            // background: cornsilk;
+        }
+    }
+
+    .footerIcons {
+        flex: 5;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        // background: cornsilk;
+
+        a {
+            width: 38px;
+            height: 38px;
+            border-radius: 10px;
+            background: $dark02;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .icon {
+                color: $yellow;
+                font-size: 1.8rem;
+            }
+        }
+    }
+}

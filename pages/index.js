@@ -4,6 +4,7 @@ import Skills from "../components/Skills";
 import Proyects from "../components/Proyects";
 import SocialMedia from "../components/SocialMedia";
 import ContactMe from "../components/ContactMe";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Proyects />
       <SocialMedia />
       <ContactMe />
+      <Footer />
     </>
   )
 }
