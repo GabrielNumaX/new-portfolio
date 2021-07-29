@@ -1,0 +1,91 @@
+.social {
+    display: flex;
+    flex-direction: column;
+    padding: 80px $paddingLRContainer;
+    background: $dark02;
+
+    .whyMe {
+        display: flex;
+        flex-direction: column;
+        // flex: 2.5;
+        // background: green;
+        // align-items: center;
+        justify-content: center;
+        color: $white;
+        padding: 0 30px 50px 20px;
+
+        .titleContainer {
+            display: flex;
+            align-items: center;
+
+            .line {
+                height: 1px;
+                width: 16px;
+                background: $green;
+            }
+
+            p {
+                color: $green;
+                font-size: 1.8rem;
+                // font-weight: $medium;
+                font-weight: $light;
+                margin-left: 5px;
+            }
+        }
+
+        .whyHire {
+            padding-left: 120px;
+            h3 {
+                font-size: 2.8rem;
+                margin: 18px 0 8px;
+            }
+        }
+    }
+
+    .socialList {
+        display: flex;
+        .socialCard {
+            display: flex;
+            align-items: center;
+            background: $dark01a;
+            border-radius: 20px;
+            width: 330px;
+            height: 180px;
+
+            .socialText {
+                flex: 7;
+                // background: chocolate;
+                display: flex;
+                flex-direction: column;
+                // align-items: center;
+                color: $white;
+                padding-left: 20px;
+
+                h3 {
+                    font-weight: $semiBold;
+                    font-size: 2.2rem;
+                }
+
+                p {
+                    font-weight: $light;
+                    font-size: 1.6rem;
+                }
+            }
+            .socialIcon {
+                flex: 5;
+                // background: cornflowerblue;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                a {
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    border: 1px solid $green;
+                    background: $dark02;
+                }
+            }
+        }
+    }
+}
