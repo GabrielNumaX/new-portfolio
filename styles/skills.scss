@@ -34,7 +34,7 @@
         }
 
         .whyHire {
-            background: crimson;
+            // background: crimson;
             padding-left: 120px;
             h3 {
                 font-size: 2.8rem;
@@ -44,6 +44,12 @@
             p {
                 font-size: 1.4rem;
                 font-weight: $light;
+
+                span {
+                    font-weight: $semiBold;
+                    letter-spacing: 1px;
+                    color: $green;
+                }
             }
         }
     }

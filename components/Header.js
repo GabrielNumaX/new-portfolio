@@ -1,16 +1,16 @@
 import { useState } from "react";
 
-const Header = ({ goToComponent }) => {
+const Header = ({ goToComponent, nav, setScroll }) => {
 
-    const [nav, setNav] = useState('landing');
+    // const [nav, setNav] = useState('landing');
 
 
-    const setScroll = (type) => {
+    // const setScroll = (type) => {
 
-        goToComponent(type)
+    //     goToComponent(type)
 
-        setNav(type);
-    }
+    //     setNav(type);
+    // }
 
 
     return (

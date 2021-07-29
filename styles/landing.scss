@@ -31,7 +31,13 @@
         h3 {
             font-size: 1.6rem;
             font-weight: $light;
-            line-height: 2.2rem;
+            line-height: 2.4rem;
+
+            span {
+                color: $green;
+                font-weight: $semiBold;
+                letter-spacing: 1px;
+            }
         }
     }
 
@@ -88,14 +94,14 @@
 
         .imgContainer {
             position: absolute;
-            // background: blue;
-            width: 400px;
-            height: 400px;
+            // position: relative;
+            // background: grey;
+            width: 250px;
+            height: calc(95vh - 60px);
             bottom: 0;
 
             @include tablet {
                 width: 360px;
-                height: 360px;
             }
         }
     }

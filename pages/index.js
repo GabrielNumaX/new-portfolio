@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 import Header from "../components/Header";
 import Landing from "../components/Landing";
 import Skills from "../components/Skills";
@@ -9,11 +9,67 @@ import Footer from "../components/Footer";
 
 export default function Home() {
 
+  const [nav, setNav] = useState('landing');
+
   const landingRef = useRef();
   const skillsRef = useRef();
   const projectRef = useRef();
   const socialRef = useRef();
   const contactRef = useRef();
+
+  // window.scrollTo(0, this.myRef.current.offsetTop)
+
+  useEffect(() => {
+
+    const handleScroll = () => {
+
+      if (window.scrollY > landingRef.current.offsetTop) {
+
+        setNav('landing')
+
+        // return;
+      }
+
+      if (window.scrollY > skillsRef.current.offsetTop - 60) {
+
+        setNav('skills');
+
+        // return;
+      }
+
+      if (window.scrollY > projectRef.current.offsetTop - 60) {
+
+        setNav('projects');
+
+        // return;
+      }
+
+      if (window.scrollY > socialRef.current.offsetTop - 60) {
+
+        setNav('social');
+
+        // return;
+      }
+
+      if (window.scrollY > contactRef.current.offsetTop - 60) {
+
+        setNav('contact')
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll)
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+    }
+  })
+
+  const setScroll = (type) => {
+
+    scrollToContent(type)
+
+    setNav(type);
+  }
 
   const scrollToContent = (element) => {
 
@@ -41,7 +97,7 @@ export default function Home() {
 
   return (
     <>
-      <Header goToComponent={scrollToContent} />
+      <Header goToComponent={scrollToContent} nav={nav} setScroll={setScroll} />
 
       <div ref={landingRef}>
         <Landing />

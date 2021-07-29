@@ -11,9 +11,9 @@ const Landing = () => {
                 <h2>Hello</h2>
                 <h1>I'm Gabriel</h1>
                 <h3>
-                    A Web Developer with
-                    <br /> more than two years
-                    <br />of experience in MERN STACK
+                    A Web Developer
+                    <br /> fully dedicated to
+                    <br /> <span>MERN STACK</span>
                 </h3>
 
             </section>
@@ -22,10 +22,10 @@ const Landing = () => {
 
                 <div className="circle"></div>
 
-                {/* <div className="imgContainer">
-                    <Image src="/numax.png" alt="Intro Image" layout="fill" objectFit="cover" />
+                <div className="imgContainer">
+                    <Image src="/profile/numax02.png" alt="Intro Image" layout="fill" objectFit="cover" />
 
-                </div> */}
+                </div>
 
             </section>
 

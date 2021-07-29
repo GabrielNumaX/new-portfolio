@@ -21,7 +21,11 @@ const Skills = () => {
                 <div className="whyHire">
                     <h3>Why Hire Me?</h3>
 
-                    <p>some brief explanation of why hire me......................</p>
+                    <p>With more that two years of experience as a Developer
+                        <br />
+                        I have particitated in real-world projects and know
+                        <br /> how to get <span>things done</span>.
+                    </p>
                 </div>
 
             </div>
