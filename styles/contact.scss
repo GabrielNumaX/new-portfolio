@@ -40,6 +40,11 @@
                 font-size: 2.8rem;
                 margin: 18px 0 8px;
             }
+
+            p {
+                font-size: 1.4rem;
+                font-weight: $light;
+            }
         }
     }
 
@@ -92,6 +97,13 @@
                     resize: none;
                     height: 180px;
                 }
+
+                p {
+                    color: crimson;
+                    font-size: 1.2rem;
+                    font-weight: $light;
+                    padding-top: 2px;
+                }
             }
 
             input[type="submit"] {
@@ -107,6 +119,11 @@
 
                 &:hover {
                     cursor: pointer;
+                }
+
+                &.sendingMessage {
+                    // pointer-events: none;
+                    cursor: not-allowed;
                 }
             }
         }
