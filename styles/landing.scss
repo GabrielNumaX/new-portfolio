@@ -1,6 +1,8 @@
 .landing {
     background: $dark01a;
-    min-height: calc(100vh - 40px);
+    // min-height: calc(100vh - 40px);
+    min-height: 100vh;
+    // padding-top: 60px;
     display: flex;
     // align-items: flex-end;
     justify-content: space-between;

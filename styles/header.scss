@@ -2,9 +2,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 50px 0;
-    height: 40px;
+    padding: 0 50px 0;
+    height: 60px;
     background: $dark01a;
+    // background: crimson;
+    position: fixed;
+    width: 100%;
+    z-index: 50;
 
     nav {
         // flex: 1;
