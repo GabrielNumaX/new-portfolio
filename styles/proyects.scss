@@ -57,7 +57,9 @@
             display: flex;
             // background: darkgoldenrod;
             // padding: 40px 80px 0;
+            justify-content: space-between;
             padding: 40px 5% 80px;
+            // padding: 40px 0 80px;
             z-index: 10;
 
             &.reverse {
@@ -78,7 +80,7 @@
                     display: flex;
                     flex-direction: column;
                     // flex: 2.5;
-                    // background: green;
+                    // background: red;
                     // align-items: center;
                     justify-content: center;
                     color: $white;
@@ -138,6 +140,11 @@
                 z-index: 5;
                 position: relative;
 
+                @include tablet {
+                    width: 300px;
+                    height: 150px;
+                }
+
                 .imageBackground01 {
                     position: absolute;
                     background: $dark03a;
@@ -150,6 +157,11 @@
                     height: inherit;
                     z-index: -1;
                     border-radius: 10px;
+
+                    @include tablet {
+                        width: 310px;
+                        height: inherit;
+                    }
 
                     &.reverse {
                         transform: rotate(3deg);
@@ -170,6 +182,11 @@
                     top: -5px;
                     z-index: -2;
                     border-radius: 10px;
+
+                    @include tablet {
+                        width: inherit;
+                        height: 160px;
+                    }
                 }
                 > div {
                     position: unset !important;

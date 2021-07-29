@@ -60,10 +60,19 @@
             overflow: hidden;
             position: relative;
 
+            @include tablet {
+                width: 240px;
+                height: 110px;
+            }
+
             &:nth-child(even) > .corner {
                 top: 105px;
                 // background: linear-gradient(225deg, black 10%, white 100%);
                 background: linear-gradient(225deg, $greenGradient02 10%, $green 100%);
+
+                @include tablet {
+                    top: 90px;
+                }
             }
 
             .corner {
@@ -76,6 +85,10 @@
                 top: -25px;
                 // right: -15px;
                 left: -20px;
+
+                @include tablet {
+                    top: -40px;
+                }
             }
 
             .socialText {
@@ -116,6 +129,11 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+
+                    @include tablet {
+                        width: 50px;
+                        height: 50px;
+                    }
 
                     .icon {
                         color: $green;

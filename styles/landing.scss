@@ -6,11 +6,13 @@
     display: flex;
     // align-items: flex-end;
     justify-content: space-between;
-    padding: 0 $paddingLRContainer;
+    padding: 0 0 0 $paddingLRContainer;
+    // padding: 0 $paddingLRContainer;
 
     .introText {
         color: $white;
         // background: blue;
+        flex: 5;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -35,13 +37,16 @@
 
     .introImg {
         // flex: 2;
+        flex: 7;
         // background: grey;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        // align-items: flex-end;
+        align-items: center;
         overflow: hidden;
         z-index: 10;
-        padding-right: 20px;
+        // padding-right: 20px;
         // padding-bottom: 20px;
 
         .circle {
@@ -51,13 +56,20 @@
             height: 400px;
             position: relative;
             $border: 65px;
-            color: #fff;
+            // color: #fff;
             background: $dark01a;
             background-clip: padding-box; /* !importanté */
             border: solid $border transparent; /* !importanté */
             border-radius: 50%;
             // z-index: 2;
             bottom: -20px;
+
+            @include tablet {
+                width: 360px;
+                height: 360px;
+                position: relative;
+                $border: 50px;
+            }
 
             &:before {
                 content: "";
@@ -79,7 +91,12 @@
             // background: blue;
             width: 400px;
             height: 400px;
-            bottom: 20px;
+            bottom: 0;
+
+            @include tablet {
+                width: 360px;
+                height: 360px;
+            }
         }
     }
 }
