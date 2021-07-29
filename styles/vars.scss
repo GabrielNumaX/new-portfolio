@@ -30,7 +30,8 @@ $light: 300;
 $medium: 500;
 $semiBold: 600;
 
-$paddingLRContainer: 65px;
+// $paddingLRContainer: 65px;
+$paddingLRContainer: 5%;
 
 @mixin tablet {
     @media (max-width: 777px) {

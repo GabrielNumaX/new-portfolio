@@ -6,7 +6,7 @@ const ProjectItem = ({ isReverse, type, title, description, image, link }) => {
 
             <div className={isReverse ? "projectDescriptionContainer reverse" : "projectDescriptionContainer"}>
 
-                <div className="projectTitle">
+                <div className={isReverse ? "projectTitle reverse" : "projectTitle"}>
 
                     <div className="titleContainer">
 

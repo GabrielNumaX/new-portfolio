@@ -5,6 +5,10 @@
     background: $dark02;
     // z-index: 1;
 
+    @include mobileBig {
+        padding: 40px $paddingLRContainer;
+    }
+
     .whyMe {
         display: flex;
         flex-direction: column;
@@ -62,6 +66,10 @@
             // padding: 40px 0 80px;
             z-index: 10;
 
+            @include mobileBig {
+                padding: 30px 5% 20px;
+            }
+
             &.reverse {
                 flex-direction: row-reverse;
             }
@@ -85,6 +93,10 @@
                     justify-content: center;
                     color: $white;
                     padding: 0 30px 50px 20px;
+
+                    &.reverse {
+                        padding: 0 10px 50px 40px;
+                    }
 
                     .titleContainer {
                         display: flex;
@@ -145,6 +157,11 @@
                     height: 150px;
                 }
 
+                @include mobileBig {
+                    width: 160px;
+                    height: 80px;
+                }
+
                 .imageBackground01 {
                     position: absolute;
                     background: $dark03a;
@@ -160,6 +177,11 @@
 
                     @include tablet {
                         width: 310px;
+                        height: inherit;
+                    }
+
+                    @include mobileBig {
+                        width: 170px;
                         height: inherit;
                     }
 
@@ -186,6 +208,11 @@
                     @include tablet {
                         width: inherit;
                         height: 160px;
+                    }
+
+                    @include mobileBig {
+                        width: inherit;
+                        height: 90px;
                     }
                 }
                 > div {

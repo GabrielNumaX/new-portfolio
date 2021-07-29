@@ -10,6 +10,10 @@ footer {
         // background: chocolate;
         justify-content: center;
 
+        @include tablet {
+            flex: 4;
+        }
+
         p {
             font-size: 1.8rem;
             color: $white;
@@ -25,6 +29,10 @@ footer {
         justify-content: space-evenly;
         // background: cornsilk;
 
+        @include tablet {
+            flex: 8;
+        }
+
         a {
             width: 38px;
             height: 38px;
@@ -33,6 +41,12 @@ footer {
             display: flex;
             justify-content: center;
             align-items: center;
+
+            @include mobileBig {
+                width: 28px;
+                height: 28px;
+                border-radius: 10px;
+            }
 
             .icon {
                 color: $yellow;

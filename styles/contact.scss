@@ -5,6 +5,10 @@
     // background: $dark01a;
     background: $dark02;
 
+    @include mobileBig {
+        padding: 40px $paddingLRContainer 80px;
+    }
+
     .whyMe {
         display: flex;
         flex-direction: column;
@@ -64,6 +68,11 @@
             // justify-content: space-between;
             align-items: center;
             margin-bottom: 40px;
+
+            @include tablet {
+                max-width: 260px;
+                // background: lightblue;
+            }
             .formDiv {
                 display: flex;
                 flex-direction: column;
