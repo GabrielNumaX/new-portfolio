@@ -73,9 +73,14 @@
             @include tablet {
                 width: 360px;
                 height: 360px;
-                position: relative;
                 $border: 50px;
             }
+
+            // @include mobileBig {
+            //     width: 320px;
+            //     height: 320px;
+            //     $border: 50px;
+            // }
 
             &:before {
                 content: "";
