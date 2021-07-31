@@ -21,7 +21,7 @@ const Proyects = () => {
                 <div className="whyHire">
                     <h3>My work in action!</h3>
 
-                    <p>In this section you can check what I&pos;ve done in the past.</p>
+                    <p>In this section you can check what I&apos;ve done in the past.</p>
                 </div>
 
             </div>

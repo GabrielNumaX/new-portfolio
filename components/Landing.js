@@ -9,7 +9,7 @@ const Landing = () => {
             <section className="introText">
 
                 <h2>Hello</h2>
-                <h1>I&pos;m Gabriel</h1>
+                <h1>I&apos;m Gabriel</h1>
                 <h3>
                     A Web Developer
                     <br /> fully dedicated to
