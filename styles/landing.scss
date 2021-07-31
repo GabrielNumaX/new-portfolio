@@ -54,6 +54,7 @@
         z-index: 10;
         // padding-right: 20px;
         // padding-bottom: 20px;
+        position: relative;
 
         .circle {
             display: flex;
@@ -111,19 +112,22 @@
             bottom: 0;
 
             @include tablet {
+                height: calc(90vh - 60px);
                 width: 220px;
                 bottom: 0;
             }
 
             @include mobileBig {
+                height: calc(85vh - 60px);
                 width: 180px;
                 bottom: 0;
             }
 
             @include mobile {
-                // width: 150px;
-                width: 50%;
-                bottom: 0;
+                height: calc(80vh - 60px);
+                width: 140px;
+                // width: 50%;
+                bottom: -30px;
             }
         }
     }
