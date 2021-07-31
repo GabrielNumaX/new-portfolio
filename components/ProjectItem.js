@@ -29,14 +29,17 @@ const ProjectItem = ({ isReverse, type, title, description, image, link }) => {
 
             </div>
 
-            <div className="projectImageContainer">
+            <div className="projectImageWrapper">
 
-                <section className={isReverse ? "imageBackground01 reverse" : "imageBackground01"}></section>
+                <div className="projectImageContainer">
 
-                <section className="imageBackground02"></section>
+                    <section className={isReverse ? "imageBackground01 reverse" : "imageBackground01"}></section>
 
-                <Image src={image} layout="fill" objectFit="cover" className="image" alt={title} />
+                    <section className="imageBackground02"></section>
 
+                    <Image src={image} layout="fill" objectFit="cover" className="image" alt={title} />
+
+                </div>
             </div>
         </div>
     );

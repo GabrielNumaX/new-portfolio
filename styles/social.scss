@@ -18,6 +18,11 @@
         color: $white;
         padding: 0 30px 50px 20px;
 
+        @include mobileBig {
+            padding: 0 5% 0 5%;
+            margin: 0 auto;
+        }
+
         .titleContainer {
             display: flex;
             align-items: center;
@@ -40,8 +45,10 @@
         .whyHire {
             padding-left: 120px;
 
-            @include mobile {
-                padding-left: 70px;
+            @include mobileBig {
+                // padding-left: 70px;
+                padding-left: 0;
+                padding-bottom: 30px;
             }
 
             h3 {
@@ -72,6 +79,11 @@
             @include tablet {
                 width: 240px;
                 height: 110px;
+            }
+
+            @include mobileBig {
+                margin-right: 0;
+                margin-bottom: 40px;
             }
 
             &:nth-child(even) > .corner {

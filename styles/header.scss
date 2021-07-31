@@ -31,6 +31,12 @@ header {
 
                 @include mobileBig {
                     margin-right: 8px;
+                    font-size: 1.4rem;
+                }
+
+                @include mobile {
+                    margin-right: 6px;
+                    font-size: 1.3rem;
                 }
 
                 &:hover {
@@ -68,6 +74,10 @@ header {
 
         &:hover {
             cursor: pointer;
+        }
+
+        @include mobile {
+            padding: 4px 6px;
         }
     }
 }
