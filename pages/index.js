@@ -45,7 +45,6 @@ export default function Home() {
 
         setNav('skills');
 
-        console.log('setSkills');
         return;
       }
 

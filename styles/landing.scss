@@ -134,10 +134,12 @@
             bottom: 0;
 
             @include tablet {
-                height: calc(100vh - 60px);
+                // height: calc(100vh - 60px);
                 // height: 440px;
+                height: calc(100% - 60px);
                 width: 230px;
                 bottom: 0;
+                // background: lawngreen;
             }
 
             @include mobileBig {
