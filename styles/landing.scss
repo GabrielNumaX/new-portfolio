@@ -76,11 +76,11 @@
                 $border: 50px;
             }
 
-            // @include mobileBig {
-            //     width: 320px;
-            //     height: 320px;
-            //     $border: 50px;
-            // }
+            @include mobileBig {
+                width: 320px;
+                height: 320px;
+                $border: 40px;
+            }
 
             &:before {
                 content: "";
@@ -102,11 +102,28 @@
             // position: relative;
             // background: grey;
             width: 250px;
+            // width: 50%;
+            // width: auto;
             height: calc(95vh - 60px);
+            // height: auto;
+            // height: 80%;
+            // height: calc(80vh - 60px);
             bottom: 0;
 
             @include tablet {
                 width: 220px;
+                bottom: 0;
+            }
+
+            @include mobileBig {
+                width: 180px;
+                bottom: 0;
+            }
+
+            @include mobile {
+                // width: 150px;
+                width: 50%;
+                bottom: 0;
             }
         }
     }
