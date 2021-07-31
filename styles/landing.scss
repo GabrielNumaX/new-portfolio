@@ -120,47 +120,87 @@
             }
         }
 
+        //         .image-container {
+
+        //   width: 100%;
+
+        //   > div {
+        //     position: unset !important;
+        //   }
+
+        //   .image {
+        //     object-fit: contain;
+        //     width: 100% !important;
+        //     position: relative !important;
+        //     height: unset !important;
+        //   }
+        // }
+
         .imgContainer {
             position: absolute;
             // position: relative;
             // background: grey;
-            width: 250px;
+            // width: 250px;
             // width: 50%;
             // width: auto;
-            height: calc(90vh - 60px);
+            // height: calc(90vh - 60px);
             // height: auto;
             // height: 80%;
             // height: calc(80vh - 60px);
             bottom: 0;
+            // width: 100%;
+            width: 300px;
 
             @include tablet {
-                // height: calc(100vh - 60px);
-                // height: 440px;
-                height: calc(100% - 60px);
-                width: 230px;
-                bottom: 0;
-                // background: lawngreen;
+                width: 210px;
             }
 
             @include mobileBig {
-                // height: calc(85vh - 60px);
-                // height: 360px;
-                // width: 190px;
-                height: 80%;
-                width: 40%;
-                bottom: 0;
+                // background: lightgreen;
+                width: 300px;
+                // background: lightslategray;
             }
 
-            @include mobile {
-                // height: calc(80vh - 60px);
-                // height: 60%;
-                // height: 290px;
-                // width: 150px;
-                // width: 50%;
-                height: 80%;
-                width: 60%;
-                bottom: -10px;
+            > div {
+                position: unset !important;
             }
+
+            .imageProfile {
+                object-fit: contain;
+                // object-fit: cover;
+                width: 100% !important;
+                position: relative !important;
+                height: unset !important;
+            }
+
+            // @include tablet {
+            //     // height: calc(100vh - 60px);
+            //     // height: 440px;
+            //     height: calc(100% - 60px);
+            //     width: 230px;
+            //     bottom: 0;
+            //     // background: lawngreen;
+            // }
+
+            // @include mobileBig {
+            //     // height: calc(85vh - 60px);
+            //     // height: 360px;
+            //     // width: 190px;
+            //     height: 80%;
+            //     width: 40%;
+            //     bottom: 0;
+            // }
+
+            // @include mobile {
+            //     // height: calc(80vh - 60px);
+            //     // height: 60%;
+            //     // height: 290px;
+            //     // width: 150px;
+            //     // width: 50%;
+            //     height: 80%;
+            //     width: 60%;
+            //     bottom: -10px;
+            // }
         }
     }
 }

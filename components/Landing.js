@@ -23,7 +23,13 @@ const Landing = () => {
                 <div className="circle"></div>
 
                 <div className="imgContainer">
-                    <Image src="/profile/numax02.png" alt="Intro Image" layout="fill" objectFit="cover" />
+                    <Image
+                        className="imageProfile"
+                        src="/profile/numax02.png"
+                        alt="Intro Image"
+                        layout="fill"
+                    // objectFit="cover"
+                    />
 
                 </div>
 
