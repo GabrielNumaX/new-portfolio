@@ -53,6 +53,12 @@
             "skill": "Material UI",
             "description": "React components for faster and easier web development.",
             "image": "/skills/material.jpg"
+        },
+        {
+            "id": 9,
+            "skill": "AWS",
+            "description": "Most popular comprehensive and evolving cloud computing platform.",
+            "image": "/skills/aws.jpg"
         }
     ]
 }
