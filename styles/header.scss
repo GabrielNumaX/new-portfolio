@@ -25,6 +25,14 @@ header {
                 margin-right: 18px;
                 font-weight: $light;
 
+                @include tablet {
+                    margin-right: 12px;
+                }
+
+                @include mobileBig {
+                    margin-right: 8px;
+                }
+
                 &:hover {
                     cursor: pointer;
                 }

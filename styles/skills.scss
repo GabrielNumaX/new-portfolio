@@ -14,6 +14,10 @@
         color: $white;
         padding: 0 30px 50px 20px;
 
+        @include mobile {
+            padding: 0 30px 30px 20px;
+        }
+
         .titleContainer {
             display: flex;
             align-items: center;
@@ -36,6 +40,10 @@
         .whyHire {
             // background: crimson;
             padding-left: 120px;
+
+            @include mobile {
+                padding-left: 70px;
+            }
             h3 {
                 font-size: 2.8rem;
                 margin: 18px 0 8px;
@@ -63,6 +71,12 @@
         flex-wrap: wrap;
         justify-content: space-around;
 
+        @include mobile {
+            flex-direction: column;
+            // justify-content: center;
+            align-items: center;
+        }
+
         .skillsCard {
             display: flex;
             flex-direction: column;
@@ -81,6 +95,10 @@
 
             &:nth-child(odd) {
                 margin-top: 20px;
+
+                @include mobile {
+                    margin-top: 0;
+                }
             }
 
             @include tablet {
