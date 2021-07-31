@@ -77,10 +77,10 @@ export default function Home() {
       }
     }
 
-    window.addEventListener('scroll', debounce(handleScroll, 700, false))
+    window.addEventListener('scroll', debounce(handleScroll, 500, false))
 
     return () => {
-      window.removeEventListener('scroll', debounce(handleScroll, 700, false))
+      window.removeEventListener('scroll', debounce(handleScroll, 500, false))
     }
   })
 
