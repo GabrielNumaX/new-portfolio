@@ -9,7 +9,7 @@ const SkillsCard = ({ skill, description, image }) => {
                 <div className="skillItem">
 
 
-                    <Image src={image} layout="fill" objectFit="cover" className="image" />
+                    <Image src={image} layout="fill" objectFit="cover" className="image" alt={skill} />
 
                 </div>
             </div>

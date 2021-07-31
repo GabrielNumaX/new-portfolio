@@ -36,7 +36,7 @@ const Header = ({ goToComponent, nav, setScroll }) => {
             </nav>
 
             <button onClick={() => setScroll('contact')}>
-                Let's Chat
+                Let&pos;s Chat
             </button>
         </header>
     );

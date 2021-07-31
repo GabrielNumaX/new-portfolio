@@ -35,7 +35,7 @@ const ProjectItem = ({ isReverse, type, title, description, image, link }) => {
 
                 <section className="imageBackground02"></section>
 
-                <Image src={image} layout="fill" objectFit="cover" className="image" />
+                <Image src={image} layout="fill" objectFit="cover" className="image" alt={title} />
 
             </div>
         </div>
