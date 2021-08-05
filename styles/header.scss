@@ -6,10 +6,16 @@ header {
     padding: 0 3% 0;
     height: 60px;
     background: $dark01a;
-    // background: crimson;
+    // background: chocolate;
     position: fixed;
     width: 100%;
     z-index: 50;
+    top: 0;
+
+    @include mobileBig {
+        height: 40px;
+        // background: cornflowerblue;
+    }
 
     nav {
         // flex: 1;
