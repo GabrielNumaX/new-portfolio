@@ -24,7 +24,7 @@ const Skills = () => {
                     <p>
                         With more that two years of experience as a Developer
                         I have particitated in real-world projects and
-                        I like to get work hard in order to get <span>things done</span>.
+                        I like to work hard in order to get <span>things done</span>.
 
                     </p>
                 </div>

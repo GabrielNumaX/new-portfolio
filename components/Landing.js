@@ -12,8 +12,8 @@ const Landing = () => {
                 <h1>I&apos;m Gabriel</h1>
                 <h3>
                     A Web Developer
-                    <br /> fully dedicated to
-                    <br /> <span>MERN STACK</span>
+                    <br />dedicated to <span>MERN STACK</span>
+
                 </h3>
 
             </section>

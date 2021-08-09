@@ -101,7 +101,7 @@ const ContactMe = () => {
                 <div className="whyHire">
                     <h3>Send a personal message.</h3>
 
-                    <p>You can reach out to me and I&apos;ll replay as soon as possible.</p>
+                    <p>You can reach out to me and I&apos;ll reply as soon as possible.</p>
                 </div>
 
             </div>

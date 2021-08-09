@@ -83,7 +83,7 @@ const SocialMedia = () => {
                     <div className="socialText">
 
                         <h3>Facebook</h3>
-                        <p>Professional profile</p>
+                        <p>Social profile</p>
 
                     </div>
 

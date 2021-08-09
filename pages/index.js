@@ -118,7 +118,7 @@ export default function Home() {
     <>
       <Header goToComponent={scrollToContent} nav={nav} setScroll={setScroll} />
 
-      <div ref={landingRef}>
+      <div ref={landingRef} className="landingRef">
         <Landing />
       </div>
 
