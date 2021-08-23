@@ -80,9 +80,11 @@
             // justify-content: space-between;
             align-items: center;
             margin-bottom: 40px;
+            width: 50%;
 
             @include tablet {
-                max-width: 260px;
+                width: 260px;
+
                 // background: lightblue;
             }
             .formDiv {
